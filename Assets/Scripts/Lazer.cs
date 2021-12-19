@@ -15,7 +15,7 @@ public class Lazer : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.up*Time.deltaTime*_LaserSpeed);
-        if(transform.position.y > 6.04){
+        if(transform.position.y > 11.77){
             Destroy(this.gameObject);
         }
         
